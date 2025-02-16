@@ -1,0 +1,22 @@
+{
+  "drinks": [
+    {
+      "id": "d8a3",
+      "idDrink": "5MpJdhHB",
+      "strDrink": "new drink",
+      "strInstructions": "do it",
+      "strDrinkThumb": "https://res.cloudinary.com/dcnijwmki/image/upload/v1739630193/ott61xasn8nl56tiuzct.jpg",
+      "isCustom": "true"
+    },
+    {
+      "id": "e3dd",
+      "idDrink": "NItdIFlG",
+      "isCustom": true,
+      "strDrink": "drink with no image",
+      "strInstructions": "just do it",
+      "strIngredient1": "vodka",
+      "strIngredient2": "water",
+      "strIngredient3": "lemon"
+    }
+  ]
+}
