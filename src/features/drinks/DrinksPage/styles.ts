@@ -17,7 +17,7 @@ export const Feed = styled.div`
   width: 100%;
   max-width: 100%;
   @media (min-width: ${BREAKPOINT_LG}px) {
-    width: 80%;
+    width: 75%;
   }
 `;
 
