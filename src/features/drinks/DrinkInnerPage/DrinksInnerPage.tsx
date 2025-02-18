@@ -25,7 +25,7 @@ export const DrinksInnerPage = () => {
   const { name, img, instructions, glass, ingredients } =
     parseDrinkRawData(drinkData) ?? {};
 
-  if (isError || !drinkData) {
+  if (isError || (!drinkData && !isLoading)) {
     return <NotFoundPage />;
   }
 
