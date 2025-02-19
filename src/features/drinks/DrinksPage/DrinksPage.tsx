@@ -47,7 +47,7 @@ export const DrinksPage = () => {
     }
   );
 
-  const observer = useRef<any>(null);
+  const observer = useRef<IntersectionObserver | null>(null);
 
   const lastDrinkRef = useCallback(
     (node: any) => {
